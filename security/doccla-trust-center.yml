@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+source: https://www.doccla.com
+url: https://trust.doccla.com/
+description: >-
+  Doccla's security and compliance posture. Doccla operates a public Trust Center at
+  trust.doccla.com and publishes its certifications on doccla.com. As a virtual-ward /
+  remote patient monitoring provider handling clinical data for NHS trusts and European
+  health systems, Doccla holds ISO 27001 (information security) and ISO 13485 (medical
+  device quality management), carries UKCA and CE medical-device marks, is GDPR compliant,
+  and is registered with the UK Care Quality Commission (CQC). The automated trust-center
+  probe did not record these because trust.doccla.com renders its content client-side
+  below the keyword threshold; this is the searched, human-verified fill from Doccla's own
+  homepage and trust-center subdomain.
+certifications:
+- {name: ISO 27001, scope: Information security management}
+- {name: ISO 13485, scope: Medical device quality management}
+- {name: UKCA, scope: UK medical-device conformity mark}
+- {name: CE, scope: EU medical-device conformity mark}
+- {name: GDPR, scope: EU/UK data protection compliance}
+- {name: CQC registered, scope: UK Care Quality Commission registration}
+docs:
+- https://trust.doccla.com/
+- https://www.doccla.com
+evidence:
+- source: https://www.doccla.com
+  keywords: [iso 27001, iso 13485, ukca, ce, gdpr, cqc]
+- source: https://trust.doccla.com/
+  keywords: [trust center]

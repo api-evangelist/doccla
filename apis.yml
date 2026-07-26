@@ -1,8 +1,28 @@
 aid: doccla
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/doccla.png
 name: Doccla
-description: Doccla is a company surfaced as a portfolio company of general-catalyst, speedinvest and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Doccla is a UK-founded virtual care platform delivering remote patient monitoring and
+  virtual wards across Europe. It combines pre-configured, Bluetooth-connected medical
+  devices, a patient app, and a clinician dashboard to monitor patients at home, reducing
+  hospital admissions and freeing bed capacity for health systems. The platform integrates
+  bidirectionally with electronic health record (EHR) systems, including Oracle Cerner for
+  the Northwest London Virtual Hospital, and is deployed with NHS trusts and European
+  providers. Doccla holds ISO 27001 and ISO 13485 certifications, UKCA and CE medical-device
+  marks, is GDPR compliant, and is registered with the UK Care Quality Commission (CQC).
+  No public developer API or portal is published at this time; integration is delivered via
+  managed EHR and medical-device connections.
 url: https://raw.githubusercontent.com/api-evangelist/doccla/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +33,35 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Remote Patient Monitoring
+- Virtual Wards
+- Digital Health
+- Telehealth
+- Medical Devices
+- EHR Integration
 apis: []
+common:
+- type: DomainSecurity
+  url: security/doccla-domain-security.yml
+- type: Website
+  url: https://www.doccla.com
+- type: TrustCenter
+  url: security/doccla-trust-center.yml
+- type: Compliance
+  url: security/doccla-trust-center.yml
+- type: Support
+  url: https://www.doccla.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
